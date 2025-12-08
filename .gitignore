@@ -1,0 +1,27 @@
+# Python virtual environments
+venv/
+env/
+
+# Byte-compiled python files
+__pycache__/
+*.pyc
+
+# Environment variables (real secrets should only go here)
+.env
+
+# Local data logs and memory (should stay on your machine)
+data/chat_today.txt
+data/memory.txt
+
+# Runtime state
+state.json
+
+# Backup / temp files
+*.save
+*.bak
+*.tmp
+*.log
+
+# OS cruft
+.DS_Store
+Thumbs.db
